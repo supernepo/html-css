@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Ejercicio CSS 2</title>
+  </head>
+
+  <body>
+    <form action="" method="get" class="user_form">
+      <fieldset>
+        <legend>Datos Personales</legend>
+        <label for="user_name">Nombre:</label>
+        <input
+          type="text"
+          id="user_name"
+          value=""
+          placeholder="Nombre Completo"
+          required
+        />
+        <div></div>
+        <label for="user_email">Correo Electrónico:</label>
+        <input type="email" id="user_email" value="" />
+        <div></div>
+        <label for="user_phone">Teléfono:</label>
+        <input type="tel" id="user_phone" value="684833765" readonly />
+        <div></div>
+        <label for="user_url">URL:</label>
+        <input
+          type="url"
+          id="user_url"
+          value=""
+          placeholder="Escribe la URL de tu página web personal"
+        />
+        <div></div>
+      </fieldset>
+      <fieldset>
+        <legend>Datos del tiempo</legend>
+        <label for="user_date">URL:</label>
+        <input type="date" id="user_date" value="" />
+        <div></div>
+        <label for="user_time">Tiempo:</label>
+        <input type="time" id="user_time" value="" />
+        <div></div>
+        <label for="user_date_time">Fecha y Hora:</label>
+        <input type="datetime" id="user_date_time" />
+        <div></div>
+        <label for="user_month">Mes:</label>
+        <input type="month" id="user_month" value="" />
+        <div></div>
+        <label for="user_week">Semana:</label>
+        <input type="week" id="user_week" value="" />
+        <div></div>
+        <label for="user_number">Número:</label>
+        <input type="number" id="user_number" value="" min="-10" max="10" />
+        <div></div>
+      </fieldset>
+      <fieldset>
+        <legend>Datos Varios</legend>
+        <div>
+          <label for="user_terms">Terminos de Búsqueda:</label>
+          <input type="search" id="user_terms" value="" disabled />
+        </div>
+        <div>
+          <label for="user_color">Color Favorito:</label>
+          <input type="color" id="user_color" />
+        </div>
+      </fieldset>
+
+      <input class="button" type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>

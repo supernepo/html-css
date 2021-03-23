@@ -1,0 +1,31 @@
+form {
+  padding: 0 25% 0 25%;
+  position: relative;
+  min-width: 400px;
+  max-width: 800px;
+}
+fieldset {
+  background-color: lightgrey;
+  padding: 1rem;
+}
+
+.user_form :required {
+  border: 2px solid red;
+}
+
+fieldset:hover {
+  background-color: grey;
+}
+
+fieldset:nth-child(3) {
+  border-bottom: 5px solid black;
+}
+fieldset:nth-child(1) {
+  border-bottom: 5px solid black;
+}
+
+.button {
+  border: 0;
+  background-color: black;
+  color: white;
+}
